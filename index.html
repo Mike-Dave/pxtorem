@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PX TO REM CONVERTER</title>
+
+    <!-- Font Awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+
+    <!-- My CSS Stylesheet -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main>
+      <h1>PX to REM converter</h1>
+      <div class="both-box-container">
+        <div>
+          <p>Pixels</p>
+          <div>
+            <input
+              class="px-box box"
+              step="any"
+              type="number"
+              placeholder="px"
+            />
+          </div>
+        </div>
+        <div class="arrow-box">
+          <div>
+            <i class="fa-solid fa-arrow-right-arrow-left"></i>
+          </div>
+        </div>
+        <div>
+          <p>REM</p>
+          <div>
+            <input
+              class="rem-box box"
+              step="any"
+              type="number"
+              placeholder="rem"
+            />
+          </div>
+        </div>
+      </div>
+      <p>Calculations based on a root font-size of 16px</p>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
